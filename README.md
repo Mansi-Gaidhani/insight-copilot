@@ -15,3 +15,12 @@ You can test the live application here:
 1. **Reasoning Node:** Analyzes the user's natural language question to determine intent (ranked product queries vs. financial summary metrics).
 2. **Tool Execution Node:** Dynamically calls custom Pandas data functions using exact dataset columns (`'Product'`, `'Revenue'`, `'Profit'`, `'Cost'`).
 3. **Synthesis Node:** Formulates the raw calculation outputs into a clear, professional analyst response.
+
+
+## 📊 Architecture Diagram
+```mermaid
+graph TD
+    A[Human Message / User Query] --> B[Reasoning Node]
+    B -->|Selects Tool & Input| C[Tool Execution Node]
+    C -->|Calculations / Query Results| D[Synthesis Node]
+    D -->|Plain Language Analyst Insight| E[END / UI Output]
