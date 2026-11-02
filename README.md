@@ -24,7 +24,7 @@ graph TD
     B -->|Selects Tool & Input| C[Tool Execution Node]
     C -->|Calculations / Query Results| D[Synthesis Node]
     D -->|Plain Language Analyst Insight| E[END / UI Output]
-
+```
 
 ## 📝 Design Decisions & Trade-Offs
 Design Decisions
