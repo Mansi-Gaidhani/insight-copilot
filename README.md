@@ -26,7 +26,7 @@ graph TD
     D -->|Plain Language Analyst Insight| E[END / UI Output]
 
 
-📝 Design Decisions & Trade-Offs
+## 📝 Design Decisions & Trade-Offs
 Design Decisions
 LangGraph State Graph Architecture: Selected a structured multi-node state graph (Reasoning ➔ Tools ➔ Synthesis) rather than an opaque single LLM call. This ensures explicit control over intent recognition and makes intermediate steps completely transparent and inspectable.
 
