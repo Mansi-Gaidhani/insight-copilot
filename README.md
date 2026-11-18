@@ -4,7 +4,7 @@ An AI-powered data assistant built for the Xcaliber Infotech take-home assignmen
 
 ## 🚀 Live Demo
 You can test the live application here: 
-👉 [Live Gradio URL](https://f134982691f6f8dfa7.gradio.live)
+👉 [Live Gradio URL](https://1550416ca7fd17e3a7.gradio.live/)
 
 ## 🛠️ Tech Stack
 - **Python & Pandas:** For data loading, filtering, and metric aggregations.
